@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -36,7 +36,7 @@ const ModuleDetails = () => {
               end: "center center",
               scrub: true,
             },
-          }
+          },
         );
 
         gsap.fromTo(
@@ -52,7 +52,7 @@ const ModuleDetails = () => {
               end: "center center",
               scrub: true,
             },
-          }
+          },
         );
       }, sectionRef);
 
